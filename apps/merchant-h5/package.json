@@ -1,0 +1,36 @@
+{
+  "name": "@monorepo/merchant-h5",
+  "version": "1.0.0",
+  "description": "商家端 H5 应用（移动端）",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc & node dist/index.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "keywords": [
+    "monorepo",
+    "merchant",
+    "h5",
+    "frontend"
+  ],
+  "author": {
+    "name": "Lyndon",
+    "email": "wuxianzhi052@gmail.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyndon/monorepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lyndon/monorepo/issues"
+  },
+  "homepage": "https://github.com/lyndon/monorepo/tree/main/apps/merchant-h5",
+  "dependencies": {
+    "shared": "workspace:*"
+  },
+  "devDependencies": {}
+}

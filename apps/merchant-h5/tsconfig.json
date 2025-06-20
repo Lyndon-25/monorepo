@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        /* Language and Environment */
+        "target": "es2020",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        /* Modules */
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        /* JavaScript Support */
+        "strict": true,
+        /* Emit */
+        "outDir": "dist"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
