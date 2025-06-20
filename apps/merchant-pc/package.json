@@ -1,0 +1,27 @@
+{
+  "name": "@monorepo/merchant-pc",
+  "version": "1.0.0",
+  "description": "商家端 PC 管理后台",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "keywords": ["monorepo", "merchant", "pc", "frontend"],
+  "author": "Lyndon <lyndon@example.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyndon/monorepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lyndon/monorepo/issues"
+  },
+  "homepage": "https://github.com/lyndon/monorepo/tree/main/apps/merchant-pc",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

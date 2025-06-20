@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "types": [
+      "node",
+      "react",
+      "react-dom"
+    ],
+    "target": "es2020",
+    "module": "ESNext",
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "moduleResolution": "Node",
+    "outDir": "dist", // 输出目录
+    "declaration": true, // 生成声明文件
+    "declarationDir": "dist/types", // 声明文件输出目录
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".", // 基准路径（相对于当前 tsconfig.json）
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "vitest.config.ts"
+  ]
+}

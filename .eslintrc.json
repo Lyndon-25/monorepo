@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "import/no-restricted-paths": [
+      {
+        "basePath": "./apps",
+        "zones": [
+          {
+            "target": "./shared",
+            "message": "请通过 <<包>> 引用共享代码"
+          }
+        ]
+      }
+    ]
+  }
+}

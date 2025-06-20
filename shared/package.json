@@ -1,0 +1,49 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "Monorepo 共享工具库（包含通用组件、工具函数和配置）",
+  "main": "dist/index.cjs.js",
+  "type": "module",
+  "module": "dist/index.esm.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    "import": "./dist/index.esm.js",
+    "require": "./dist/index.cjs.js"
+  },
+  "scripts": {
+    "test": "vitest",
+    "prepublishOnly": "npm test",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "monorepo",
+    "shared",
+    "utilities",
+    "components"
+  ],
+  "author": "Lyndon <lyndon@example.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyndon/monorepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lyndon/monorepo/issues"
+  },
+  "homepage": "https://github.com/lyndon/monorepo/tree/main/shared",
+  "files": [
+    "index.js",
+    "src",
+    "LICENSE",
+    "README.md",
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.15.29",
+    "rollup": "^4.41.1",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
